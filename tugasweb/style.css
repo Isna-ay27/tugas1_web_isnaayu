@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+
+body {
+    background-image: url(../giftly.png);
+    font: 14px/28px arial, sans-serif;
+}
+
+.container {
+    margin: auto;
+    background-color: white;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+h1.judul {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.head li {
+    display: inline-block;
+}
+
+.head li a:hover {
+    background-color: lightslategray;
+    color: whitesmoke;
+}
+
+.head li a {
+    text-decoration: none;
+    color: orangered;
+    margin-right: 10px;
+}
+
+.head {
+    margin-left: 20px;
+}
+
+.cover {
+    height: 400px;
+    background-image: url(../head.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: auto -130px;
+    margin-top: -1px;
+    border-top: 5px solid orangered;
+    border-bottom: 5px solid lightseagreen;
+    
+}
+
+.penulis a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.penulis h2 {
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.penulis p.oleh {
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.penulis {
+    padding: 20px;
+}
+
+.penulis .content p {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 7px;
+    text-indent: 20px;
+}
+
+.footer {
+    background-color: rgb(46, 46, 46);
+    padding: 15px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: orangered;
+}
+
+
+
